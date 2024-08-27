@@ -29,7 +29,7 @@ public class RisingBacteria {
             if (x % 2 == 1) { // Check if the least significant bit is 1
                 count++; // Increment the counter if the bit is 1
             }
-            System.out.println(x); // Print the current value of x (for debugging or informational purposes)
+            System.out.println(" X = " + x); // Print the current value of x (for debugging or informational purposes)
             x /= 2; // Right shift x by dividing by 2 to check the next bit
         }
         return count; // Return the total number of 1s in the binary representation of x

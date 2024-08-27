@@ -1,0 +1,105 @@
+To solve LeetCode problems efficiently, there are several patterns and techniques you should study. These patterns help you recognize the type of problem you're dealing with and apply the right approach to solve it. Here are some of the most common patterns and techniques:
+
+1. Two Pointers
+Description: Use two pointers to iterate through the array or string from different ends or to move at different speeds.
+Common Use Cases: Problems involving arrays or strings where you need to find pairs, triplets, or subarrays that meet certain conditions (e.g., two-sum, three-sum, palindrome checking).
+Example Problems:
+Two Sum II (Input Array Is Sorted)
+Container With Most Water
+Move Zeroes
+Valid Palindrome
+2. Sliding Window
+Description: Use a window of a fixed or variable size to slide over the input (usually an array or string) to keep track of a subset of elements.
+Common Use Cases: Problems involving finding a subarray or substring with certain properties, like maximum sum, minimum length, or containing all characters of another string.
+Example Problems:
+Longest Substring Without Repeating Characters
+Minimum Window Substring
+Maximum Sum Subarray of Size K
+3. Prefix Sum / Cumulative Sum
+Description: Precompute the sum of elements from the beginning up to each index, then use these sums to efficiently calculate subarray sums or to solve range query problems.
+Common Use Cases: Problems involving subarray sums, range sums, or finding zero-sum subarrays.
+Example Problems:
+Subarray Sum Equals K
+Range Sum Query - Immutable
+Continuous Subarray Sum
+4. Binary Search
+Description: Use a divide-and-conquer approach to efficiently search for an element in a sorted array or to find the boundary conditions.
+Common Use Cases: Searching in sorted arrays, finding the position of an element, or minimizing/maximizing a function.
+Example Problems:
+Binary Search
+Find Minimum in Rotated Sorted Array
+Search in Rotated Sorted Array
+Median of Two Sorted Arrays
+5. Backtracking
+Description: Recursively explore all possible solutions by trying out all paths and backtracking once a path is deemed not viable.
+Common Use Cases: Problems that require generating all permutations, combinations, subsets, or solving puzzles like Sudoku.
+Example Problems:
+Subsets
+Permutations
+Combination Sum
+N-Queens
+6. Dynamic Programming (DP)
+Description: Break down a complex problem into simpler subproblems and store the results of these subproblems to avoid redundant computations.
+Common Use Cases: Problems involving optimization (e.g., minimum cost, maximum profit), counting paths, or subsequences.
+Example Problems:
+Climbing Stairs
+Longest Increasing Subsequence
+Coin Change
+Word Break
+7. Greedy Algorithms
+Description: Make a series of choices that are locally optimal, hoping to find a global optimum.
+Common Use Cases: Problems involving interval scheduling, minimum spanning tree, Huffman coding, or those that can be solved by always taking the "best" immediate option.
+Example Problems:
+Maximum Subarray
+Jump Game
+Partition Labels
+Gas Station
+8. Union-Find / Disjoint Set
+Description: Data structure to keep track of a partition of elements into disjoint subsets and to efficiently manage connectivity queries.
+Common Use Cases: Problems involving connected components, cycle detection in graphs, or dynamic connectivity.
+Example Problems:
+Number of Connected Components in an Undirected Graph
+Friend Circles
+Redundant Connection
+9. Topological Sort
+Description: Order the vertices of a directed graph in such a way that for every directed edge from vertex A to vertex B, vertex A comes before vertex B.
+Common Use Cases: Problems involving ordering tasks with dependencies, such as course scheduling or build systems.
+Example Problems:
+Course Schedule
+Course Schedule II
+Alien Dictionary
+10. Trie (Prefix Tree)
+Description: A tree-like data structure that stores strings in a space-efficient way, particularly useful for prefix queries.
+Common Use Cases: Problems involving prefix searches, word dictionaries, or autocomplete systems.
+Example Problems:
+Implement Trie (Prefix Tree)
+Word Search II
+Design Add and Search Words Data Structure
+11. Graph Algorithms (DFS/BFS)
+Description: Use Depth-First Search (DFS) or Breadth-First Search (BFS) to traverse or search graph data structures.
+Common Use Cases: Problems involving pathfinding, connected components, bipartiteness checking, or shortest paths in unweighted graphs.
+Example Problems:
+Number of Islands
+Word Ladder
+Clone Graph
+12. Heap / Priority Queue
+Description: Use a binary heap or priority queue to efficiently get the maximum or minimum element from a dataset.
+Common Use Cases: Problems involving dynamic order statistics, like finding the k-th largest element or merging k sorted lists.
+Example Problems:
+Merge k Sorted Lists
+Find Median from Data Stream
+Kth Largest Element in an Array
+13. Bit Manipulation
+Description: Perform operations directly on binary representations of numbers to achieve efficient solutions.
+Common Use Cases: Problems involving subsets, permutations, bitmasks, or optimizations on integer arrays.
+Example Problems:
+Single Number
+Subsets
+Maximum XOR of Two Numbers in an Array
+By studying these patterns and techniques, you will develop a strong foundation to tackle a wide range of problems on LeetCode and similar coding platforms. It's also beneficial to practice problems from each category to become comfortable with identifying the right approach for different types of problems.
+
+
+
+
+
+
